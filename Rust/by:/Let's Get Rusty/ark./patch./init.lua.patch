@@ -1,0 +1,7 @@
+--- neovim-rust/lua/plugins/init.lua	2025-06-20 15:20:30.636309432 -0500
++++ .config/nvim/lua/plugins/init.lua	2025-06-20 15:39:27.892287013 -0500
+@@ -22,3 +22 @@
+-      local mason_registry = require('mason-registry')
+-      local codelldb = mason_registry.get_package("codelldb")
+-      local extension_path = codelldb:get_install_path() .. "/extension/"
++      local extension_path = vim.fn.expand "$MASON/packages/codelldb/extension/"

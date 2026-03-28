@@ -1,0 +1,14 @@
+diff --git a/lua/plugins/init.lua b/lua/plugins/init.lua
+index 9256209..ef53841 100644
+--- a/lua/plugins/init.lua
++++ b/lua/plugins/init.lua
+@@ -19,7 +19,8 @@ return {
+     lazy = false, -- This plugin is already lazy
+     ft = "rust",
+     config = function ()
+-      local extension_path = vim.fn.expand "$MASON/packages/codelldb/extension/"
++--      local extension_path = vim.fn.expand "$MASON/packages/codelldb/extension/"
++      local extension_path = vim.fn.expand "/home/mr/.local/share/nvim/mason/packages/codelldb/extension/"
+       local codelldb_path = extension_path .. "adapter/codelldb"
+       local liblldb_path = extension_path.. "lldb/lib/liblldb.dylib"
+ 	-- If you are on Linux, replace the line above with the line below:

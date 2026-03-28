@@ -1,3 +1,6 @@
+# CodeLLDB
+This was originally made for VSCode, but Neovim can use it!
+
 # Setup:
 sch: https://www.google.com/search?q=CodeLLDB , https://www.google.com/search?q=CodeLLDB+neovim
 
